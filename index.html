@@ -10,12 +10,12 @@
     <nav id="Menu">
         <a class="Logo" href="#"><img src="img/Logo.svg" alt="Logo">Mascotas del Lago</a>
         <ul>
-            <li><a href="#Intro" target="_parent">Conocenos</a></li>
+            <li><a href="#Intro" target="_parent">Concenos</a></li>
             <li><a href="#Productos" target="_parent">Productos</a></li>
             <li><a href="#Servicios" target="_parent">Servicios</a></li>
             <li><a href="#Comunidad" target="_parent">Comunidad</a></li>
-            <li><a href="#Ubicacion" target="_parent">Contactanos</a></li>
-            <li><a href="#Formulario" target="_parent">Escribenos</a></li>
+            <li><a href="#Ubicacion" target="_parent">Contáctanos</a></li>
+            <li><a href="#Formulario" target="_parent">Escríbenos</a></li>
         </ul>
     </nav>
 
@@ -34,7 +34,7 @@
         <section id="Intro">
             <h2>¡Bienvenidos a Mascotas del Lago!</h2>
             <p>En el corazón del parque más emblemático de la ciudad, justo donde la brisa de nuestro majestuoso Coquivacoa refresca cada tarde, nace Mascotas del Lago. Estamos ubicados en la Vereda del Lago (Maracaibo, Estado Zulia), el punto de encuentro favorito de las familias marabinas y, por supuesto, de los consentidos de cuatro patas.</p>
-            <p>Más que una tienda, somos el oasis perfecto para tu compañero de aventuras. Sabemos que una buena caminata frente al lago no está completa sin un momento de mimo y diversión para ese amigo fiel que te acompaña a cada paso.</p>
+            <p>Más que una tienda, somos el oasis perfecto para tu compañero de aventuras. Sabemos que una buena caminata frente al lago no está completa sin un momento de mimos y diversión para ese amigo fiel que te acompaña a cada paso.</p>
             <img src="img/Intro/Banner2.jpg" alt="Introduccion">
         </section>
 
@@ -42,7 +42,7 @@
             <h2>Productos</h2>
             <p>Conoce los últimos productos del local para tu mascota</p>
             <div id="Catalogo">
-                <form id="Buscardor" action="#">
+                <form id="Buscardor" action="#" method="get">
                     <input type="text" placeholder="Buscar Producto..." required><button><img src="img/Productos/search.svg" alt="Buscar"></button>
                 </form>
                 <div id="Mostrador">
@@ -62,7 +62,7 @@
                             <img src="img/Productos/Antiparasitos.jpg" alt="Antiparasitos">
                         </div>
                         <div class="Contenido">
-                            <h3>Antiparasitos</h3>
+                            <h3>Antiparásitos</h3>
                             <a href="#">Preguntar Precio</a>
                         </div>
                     </div>
@@ -175,7 +175,7 @@
         
         <section id="Comunidad">
             <h2>Nuestra Comunidad</h2>
-            <p>Se parte de nuestra gran familia.</p>
+            <p>Sé parte de nuestra gran familia.</p>
             <div id="Galeria">
                 <img class="Principal" src="img/Comunidad/imagenA.jpg" alt="ImagenA">
                 <img src="img/Comunidad/imagenB.jpg" alt="ImagenB">
@@ -186,7 +186,7 @@
 
         <section id="Ubicacion">
             <h2>Contactos y Ubicación</h2>
-            <p>Ubicanos en la Vereda del Lago o escribenos por WhatsApp.</p>
+            <p>Ubícanos en la Vereda del Lago o Escríbenos por WhatsApp.</p>
             <div>
                 <div id="Mapa">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.015053739378!2d-71.59648242495996!3d10.655938089485591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e89988d04bb6749%3A0x4137bee05553bef2!2sVereda%20del%20Lago!5e0!3m2!1ses-419!2sve!4v1784203323820!5m2!1ses-419!2sve" title="Ubicación" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
@@ -209,7 +209,7 @@
                         <div class="Contenido">
                             <h3>WhatsApp</h3>
                             <p>+58 426-6729348</p>
-                            <p>Respuesta en el dia</p>
+                            <p>Respuesta en el día</p>
                         </div>
                     </div>
 
@@ -231,12 +231,12 @@
         <section id="Formulario">
             <h2>El primer paso lo das tú...</h2>
             <p>Para empezar con buen pie, queremos conocer a tu consentido.</p>
-            <form id="Registro" action="#">
+            <form id="Registro" action="#" method="post">
                 <div>
                     <h3>Información del dueño</h3>
                     <div>
                         <label for="Nombre">Nombre</label><input type="text" name="Nombre" id="Nombre" required 
-                            attern="^[A-Za-záéíóúÁÉÍÓÚñÑ ]+$" title="Solo letras y espacios" placeholder="Ej. Jose">
+                            pattern="^[A-Za-záéíóúÁÉÍÓÚñÑ ]+$" title="Solo letras y espacios" placeholder="Ej. Jose">
                         <label for="Apellido">Apellido</label><input type="text" name="Apellido" id="Apellido" required 
                             pattern="^[A-Za-záéíóúÁÉÍÓÚñÑ ]+$" title="Solo letras y espacios" placeholder="Ej. Pérez">
                         <label for="Correo">Correo</label><input type="email" name="Correo" id="Correo" required 
@@ -253,24 +253,24 @@
                             pattern="^[A-Za-záéíóúÁÉÍÓÚñÑ ]+$" title="Solo letras y espacios" placeholder="Ej. Chonky">
                         <label for="Animal">Animal</label><select name="Animal" id="Animal" title="Elige tu animal">
                             <option value="">-- Selecciona --</option>
-                            <option value="Perros">Perros</option>
-                            <option value="Gatos">Gatos</option>
-                            <option value="Tortugas">Tortugas</option>
-                            <option value="Conejos">Conejos</option>
+                            <option value="Perros">Perro</option>
+                            <option value="Gatos">Gato</option>
+                            <option value="Tortugas">Tortuga</option>
+                            <option value="Conejos">Conejo</option>
                             <option value="Otro">Otro</option>
                         </select>
                         <div id="Genero">
-                            <label for="Genero">Género</label>
+                            <label for="Genero">Género:</label>
                             <label for="Masculino">Macho<input type="radio" name="Género" id="Masculino" required title="Tu mascota es macho?"></label>
                             <label for="Femenino">Hembra<input type="radio" name="Género" id="Femenino" required title="Tu mascota es hembra?"></label>
                         </div>
                         <label for="Comentarios">Comentarios</label><textarea name="Comentarios" id="Comentarios" 
                             rows="4" maxlength="320" placeholder="Escribe tu mensaje (máximo 320 caracteres)..." title="Deja un comentario, es opcional"></textarea>
-                        <label for="Terminos" id="TyC"><input type="checkbox" name="Terminos" id="Terminos" required title="Es necesario que aceptes las condiciones"> Acepto los terminos y condiciones</label>
+                        <label for="Terminos" id="TyC"><input type="checkbox" name="Terminos" id="Terminos" required title="Es necesario que aceptes las condiciones"> Acepto los términos y condiciones</label>
                     </div>
                 </div>
 
-                <button type="submit">Enviar Formulario</button>
+                <button type="submit">Envíar Formulario</button>
             </form>
         </section>
     
